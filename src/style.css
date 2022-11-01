@@ -1,0 +1,62 @@
+:root {
+    --main-color: #ffe44d;
+}
+body {
+    margin: 0;
+    font-family: 'Nunito', 'Arial', 'Helvetica', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.wrapper {
+    min-height: 100vh;
+    /* background-color: beige; */
+}
+
+.cards-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
